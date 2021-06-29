@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html>
+        <head lang="en">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="./assets/css/style.css">
+            <meta charset="utf-8">
+            <title>register</title>
+        </head>
+        <body>
+          
+            <main>
+                <article>
+                    <div class="text"><h1 class="text2">Register</h1></div>
+                    <p class="text1">Create your account. It's free only takes a minute.</p>
+                </article>
+                <form>
+                    <div class="head">
+                    
+                    <input placeholder="First Name" required autofocus pattern="^[A-Z][a-z]{1,32}$" id="fn" name="fn" class="head h form" type="text">
+                  
+                    <input placeholder="Last Name" required pattern="^[A-Z][a-z]{1,32}$" id="ln"name="ln"class="head h form" type="text">
+              </div>
+                   
+                    <input placeholder="Email" type="email" class="form"  pattern="^[a-zA-Z0-9]{1,16}@[a-z]{1,9}\.[a-z]{1,4}$">
+                <input
+                placeholder="Password"
+                class="form"
+                id="password"
+                type="password"
+                name="password"
+                required
+               
+                pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
+              />
+              <input class="form"
+              placeholder="Confrim Password"
+              id="password"
+              type="password"
+              name="password"
+              required
+             
+              pattern="(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{6,32"
+            />
+               </div>
+               
+               <label class="p"for="cb"><input class="p"name="cb" type="checkbox">I accept the <a href="#"> Terms of Use </a> & <a href="#"> Privacy Policy </a>.</label>
+          <button class="form btn">Register Now</button>
+            </form>
+            </main>
+        </body>
+    </html>
