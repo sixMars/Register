@@ -32,7 +32,7 @@ justify-content: space-around;
 
 }
 
-form {
+article {
     padding: 20px;
    
 }
@@ -75,5 +75,9 @@ a{
     
 }
 .p{
+    text-align: left;
+}
+.radio{
+    display: block;
     text-align: left;
 }
